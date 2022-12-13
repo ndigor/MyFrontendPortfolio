@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Портфолио</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Верстка шапки сайта-->
+<header class="header" id="header">
+    <h1 class="header-title">Игорь Недякин</h1>
+    <p class="header-subtitle">фрилансер, веб-разработчик, создание сайтов</p>
+    <a href="#portfolio" class="header-arrow">
+        <img src="./img/header/chevron-down.svg" alt="Arrow">
+    </a>
+</header>
+    
+<!--Верстка блока портфолио-->
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-header">Портфолио</h2>
+
+                <!-- Верстка карточки многостраничный сайт -->
+                <div class="portfolio-cards-wrapper">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="forest-travel.html" class="card-link" alt="Многостраничный сайт">
+                          <img class="card-img" src="./img/portfolio/forest.jpg.jpg" alt="Многостраничный сайт">
+                          <h3 class="card-title">Многостраничный сайт</h3>
+                          <p>Верстка многостраничного сайта.</p>
+                          </a>
+                    </div>
+
+                    <!-- Верстка карточки Адаптивный лендинг -->
+                    <div class="card">
+                        <a href="forest-travel.html" class="card-link" alt="Многостраничный сайт">
+                        <img class="card-img" src="./img/portfolio/unit.jpg.jpg" alt="Аддаптивный лендинг">
+                        <h3 class="card-title">Адаптивный лендинг</h3>
+                        <p>Верстка многостраничного сайта.</p>
+                    </a>
+                    </div>
+    
+                    <!-- Верстка карточки Многостраничный сайт -->
+                    <div class="card">
+                        <a href="forest-travel.html" class="card-link" alt="Многостраничный сайт">
+                        <img class="card-img" src="./img/portfolio/portfolio.jpg.jpg" alt="Личный сайт">
+                        <h3 class="card-title">Личный сайт</h3>
+                        <p>Верстка многостраничного сайта.</p>
+                    </a>
+                    </div>
+                    <!-- // Card -->
+                <!-- Верстка карточки Интернет-магазин -->
+                <div class="card">
+                    <a href="forest-travel.html" class="card-link" alt="Многостраничный сайт">
+                    <img class="card-img" src="./img/portfolio/quantum.jpg" alt="Интернет-магазин">
+                    <h3 class="card-title">Интернет-магазин</h3>
+                    <p>Верстка многостраничного сайта.</p>
+                </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+
+                <!-- footer-copyright -->
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">© Игорь Недякин</div>
+                    <p>HTML верстка и разработка сайтов</p>
+                </div>
+                <!-- // footer-copyright -->
+
+                <!-- footer-icons -->
+                <div class="footer-icons footer-col">
+                    <p>Мои профили в социальных сетях:</p>
+                    <div class="footer-icons-row">
+                        <a href="https://vk.com/nedyakin90" target="blank" alt="Связаться во ВКонтакте">
+                            <img src="./img/icons/vk.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/icons/ln.svg" alt="Мой LinkedIn">
+                        </a>
+                        <a href="https://github.com/" target="blank">
+                            <img src="./img/icons/github.png" alt="Мой GitHub">
+                        </a>
+                    </div>
+                </div>
+                <!-- // Подключение иконок -->
+
+                <div class="footer-contacts footer-col">
+                    <a href="https://vk.com/nedyakin90" target="blank" class="footer-button">
+                        Связаться Вконтакте
+                    </a>
+                    <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<!--Подключаем Библиотеки и плагины-->
+<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+<script src="./libs/vide/jquery.vide.min.js"></script>
+
+<!--Собственные скрипты и вызовы библиотек-->
+<script src="./js/main.js"></script>
+
+</body>
+</html>
