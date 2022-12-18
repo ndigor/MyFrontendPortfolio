@@ -285,3 +285,7 @@ img {
     background-color: #275BEC;
     color: white;
 }
+
+@media (max-width: 600px) {
+    #sidebar {display: none;}
+}
