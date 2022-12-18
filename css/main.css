@@ -288,6 +288,6 @@ img {
     color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     #sidebar {display: none;}
 }
