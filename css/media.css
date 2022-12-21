@@ -26,11 +26,7 @@
 
 }
 
-/* Медиа запрос: для экранов с шириной ДО 760px */
-@media (max-width: 760px) {
-    .header-title {
-        font-size: 32px;
-    }
+
 
     .header-subtitle {
         font-size: 14px;
@@ -124,10 +120,8 @@
         max-width: 320px;
     }
 
-    @media (max-width: 600px) {
-        body {
-          background-color: white;
-        }
-      }
-      }
-}
+    /* Медиа запрос: для экранов с шириной ДО 760px */
+@media (max-width: 760px) {
+    .header-title {
+        font-size: 32px;
+    }
