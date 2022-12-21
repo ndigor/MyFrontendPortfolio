@@ -154,6 +154,7 @@ img {
     padding-bottom: 130px;
     background: #1E4776;
     color: white;
+    width:100%;
 }
 
 .footer-row {
@@ -163,7 +164,7 @@ img {
 }
 
 .footer-col {
-    max-width: 350px;
+    max-width: 100%;
     flex-grow: 1;
 }
 
