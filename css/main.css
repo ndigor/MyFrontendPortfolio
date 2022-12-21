@@ -291,4 +291,8 @@ img {
     body {
       background-color: white;
     }
+    footer{
+        display:flex;
+        flex-direction: column;
+    }
   }
